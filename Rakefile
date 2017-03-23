@@ -24,7 +24,7 @@ namespace :test do
         cd spec/rails4_dummy_app &&
         npm run build &&
         npm run rwr-background-node &&
-        sleep 20 &&
+        sleep 4 &&
         bundle exec rspec &&
         npm run rwr-stop-background-node
       )
