@@ -17,7 +17,11 @@ module.exports = {
         loaders: ['babel-loader']
       },
       {
-        test: /\.s?css$/,
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('css!sass')
+      },
+      {
+        test: /\.css$/,
         loader: ExtractTextPlugin.extract('css!sass')
       }
     ]
