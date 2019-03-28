@@ -1,6 +1,6 @@
 {
   "name": "rwr-redux",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Redux integration for react_webpack_rails",
   "main": "js/lib/index.js",
   "files": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netguru/rwr-redux.git"
+    "url": "git+https://github.com/DrizlyInc/rwr-redux.git"
   },
   "keywords": [
     "redux",
@@ -26,14 +26,14 @@
   "author": "Kacper Goliński",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/netguru/rwr-redux/issues"
+    "url": "https://github.com/DrizlyInc/rwr-redux/issues"
   },
-  "homepage": "https://github.com/netguru/rwr-redux",
+  "homepage": "https://github.com/DrizlyInc/rwr-redux",
   "dependencies": {
     "react-redux": "^4.4.5",
     "react-router": "^2.6.1",
     "react-router-redux": "^4.0.5",
-    "react-webpack-rails": "^0.5.0",
+    "react-webpack-rails": "git+https://github.com/DrizlyInc/react_webpack_rails.git",
     "redux": "^3.5.2"
   },
   "devDependencies": {
