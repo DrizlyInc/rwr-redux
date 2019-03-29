@@ -31,7 +31,7 @@
   "homepage": "https://github.com/DrizlyInc/rwr-redux",
   "dependencies": {
     "react-redux": "^4.4.5",
-    "react-router": "^2.6.1",
+    "react-router": "^3.2.0",
     "react-router-redux": "^4.0.5",
     "react-webpack-rails": "git+https://github.com/DrizlyInc/react_webpack_rails.git",
     "redux": "^3.5.2"
