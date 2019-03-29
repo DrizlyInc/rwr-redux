@@ -1,5 +1,4 @@
 node_modules/
-/js/lib/
 pkg
 /Gemfile.lock
 react_bundle.js
